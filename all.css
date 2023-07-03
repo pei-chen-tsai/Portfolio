@@ -52,12 +52,23 @@ table {
           box-sizing: border-box; }
 
 .info {
-  width: 1200px;
-  margin: 0 auto; }
+  width: 98%;
+  margin-right: 1%;
+	margin-left: 1%;
+}
+
+  @media (max-width: 360px) {
+    .info,.container,.skill,.skillbanner,.footer {
+      width: 96%;
+      margin-right: 2%;
+	    margin-left: 2%;
+    }
+  }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 98%;
+  margin-right: 1%;
+	margin-left: 1%;
   margin-bottom: 72px; }
 
 .info h1 {
@@ -65,6 +76,7 @@ table {
   line-height: 106px;
   border-bottom: 2px solid #000;
   margin-top: 37px; }
+
 
 .profile {
   height: 200px;
@@ -94,6 +106,7 @@ table {
   margin-bottom: 24px; }
 
 .skillbanner {
+  width: 100%;
   background-color: #FDDA5C;
   color: #2D241B;
   margin-bottom: 72px;
@@ -106,7 +119,7 @@ table {
           flex-direction: column; }
 
 .skill {
-  width: 996px;
+  width: 98%;
   margin: 0 auto;
   font-size: 32px;
   padding-bottom: 8px;
@@ -152,7 +165,7 @@ table {
   text-align: center; }
 
 .footer h2 {
-  width: 1200px;
+  width: 98%;
   margin: 0 auto;
   border-bottom: 1px solid #fff;
   padding-top: 24px;
